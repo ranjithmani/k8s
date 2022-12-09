@@ -20,5 +20,6 @@ spec:
       containers:
       - image: busybox
         name: busybox
+        command: ["/bin/sleep", "999999"]
         resources: {}
 status: {}
