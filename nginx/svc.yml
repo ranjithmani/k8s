@@ -6,7 +6,6 @@ metadata:
     app: nginx
     app.kubernetes.io/instance: testnginx
   name: nginx
-  namespace: nginx
 spec:
   ports:
   - port: 80
